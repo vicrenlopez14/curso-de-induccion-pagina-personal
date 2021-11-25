@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans'
+}
+
+/* Cositas del navbar */
+
+.navbar {
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: rgb(221, 152, 2);
+    color: white;
+}
+
+.divider {
+    height: 60px;
+}
+
+.page-header {
+    width: 100%;
+    color: white;
+}
+
+.page-header table {
+    width: 100%;
+}
+
+.seccion-contenido {
+    padding: 20px;
+    background-color:rgb(221, 152, 2);
+    color: white;
+    margin-top: 20px;
+}
+
+.p {
+    text-align: left;
+}

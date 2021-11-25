@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Curso de inducción - Página personal</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#institucion">Mi colegio</a>
+        <a href="#autobiografia">Biografía</a>
+        <a href="#ocios">Ocios</a>
+        <a href="#objetivos">Objetivos</a>
+    </div>
+
+    <!-- Divisor que evita el superposicionamiento de la barra en la sección de institución -->
+    <div class="divider"></div>
+
+    <!-- Sección de institución -->
+    <div class="page-header">
+        <table>
+            <tr>
+                <td width="30">
+                    <img id="logo_elem" alt="Ricaldone logo" width="100px" height="100px">
+
+                </td>
+                <th bgcolor="orange">
+                    <marquee behavior="alternate">
+                        <strong id="school_name"></strong>
+                    </marquee>
+                </th>
+
+            </tr>
+
+        </table>
+    </div>
+
+    <br>
+
+    <!-- Sección de autobiografía -->
+    <div class="seccion-contenido" id="autobiografia">
+        <h2>Mi autobiografía</h2>
+        <table>
+            <tr>
+                <th>
+                    <p id="biography"></p>
+                </th>
+                <th>
+                    <img id="person_picture" alt="My picture" width="100px">
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Sección de ocios -->
+    <div class="seccion-contenido" id="ocios">
+        <h2>Mis ocios</h2>
+        <ol id="hobbies_list"></ol>
+    </div>
+
+    <!-- Sección de metas y objetivos -->
+    <div class="seccion-contenido" id="objetivos">
+        <h2>Metas y objetivos para 2022</h2>
+        <ol id="objectives_list"></ol>
+    </div>
+
+    <script type="text/javascript" src="config/setup.js"></script>
+</body>
+
+</html>
